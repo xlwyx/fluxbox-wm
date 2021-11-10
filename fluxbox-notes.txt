@@ -1,0 +1,16 @@
+----------------------------------------------------------*
+*********************** FLUXBOX ***************************
+----------------------------------------------------------*
+# This is packets fot Fluxbox
+fluxbox dejavu-fonts-ttf cbatticon volumeicon cgmanager feh lxappearance arc-theme papirus-icon-theme
+
+-- Begain Fluxbox --
+# We configure the .xinitrc file ##
+exec fluxbox
+
+## In case of installing picom, for its correct operation; it is configured in:
+doas nano /usr/share/examples/picom/picom.sample.conf
+    -- On Transparency/Opacity
+    inactive-opacity-override = true
+    # inactive-opacity-override = false;
+    
