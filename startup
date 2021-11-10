@@ -1,0 +1,34 @@
+#!/bin/sh
+#
+# fluxbox startup-script:
+#
+# Lines starting with a '#' are ignored.
+
+# Change your keymap:
+xmodmap "/home/lwy/.Xmodmap"
+setxkbmap -model cp105 -layout es &
+
+# Applications you want to run with fluxbox.
+# MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
+#
+# unclutter -idle 2 &
+# wmnd &
+# wmsmixer -w &
+# idesk &
+
+# And last but not least we start fluxbox.
+# Because it is the last app you have to run it with ''exec'' before it.
+
+# exec fluxbox
+# or if you want to keep a log:
+# exec fluxbox -log "/home/lwy/.fluxbox/log"
+
+volumeicon &
+cbatticon &
+fcitx5 &
+feh --bg-fill ~/Pictures/Wallpapers/looplinux-wallpaper-v2/15.jpg &
+pulseaudio -D &
+xscreensaver --nosplash &
+picom &
+
+exec fluxbox
