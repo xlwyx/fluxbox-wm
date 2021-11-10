@@ -2,7 +2,7 @@
 *********************** FLUXBOX ***************************
 ----------------------------------------------------------*
 # This is packets fot Fluxbox
-fluxbox dejavu-fonts-ttf cbatticon volumeicon cgmanager feh lxappearance arc-theme papirus-icon-theme
+fluxbox dejavu-fonts-ttf cbatticon volumeicon cgmanager skippy-xd feh lxappearance Adapta arc-theme papirus-icon-theme
 
 -- Begain Fluxbox --
 # We configure the .xinitrc file ##
