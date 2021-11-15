@@ -2,7 +2,7 @@
 *********************** FLUXBOX ***************************
 ----------------------------------------------------------*
 # This is packets fot Fluxbox
-fluxbox dejavu-fonts-ttf cbatticon volumeicon cgmanager (* cgmanager *) skippy-xd nitrogen lxappearance xfe4-screenshooter Adapta arc-theme papirus-icon-theme opendoas
+fluxbox dejavu-fonts-ttf cbatticon volumeicon cgmanager (* cgmanager-runit  --> artix-runit; cgmanager-openrc  --> artix-openrc; cgmanager-s6  -->  artix-S6; cgmnager-66  -->  artix-66cgmanager *) skippy-xd nitrogen lxappearance xfe4-screenshooter Adapta arc-theme papirus-icon-theme opendoas
 
 -- Begain Fluxbox --
 # We configure the .xinitrc file ##
