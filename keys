@@ -26,7 +26,7 @@ Mod4 m :Exec geary
 # Control Mod1 t :Exec xfce4-terminal --hide-menubar
 # F12 :Exec xfce4-terminal --drop-down --hide-menubar
 # open Chromium browser
-Mod4 w :Exec waterfox-bin
+Mod4 w :Exec waterfox-g4
 Mod4 l :Exec slock
 # open pcmanfm
 Mod4 e :Exec pcmanfm
@@ -174,5 +174,5 @@ Control Mod4 F12 :TakeToWorkspace 12
 # screenshot
 None Print :Exec xfce4-screenshooter
 
-Mod4 t :Exec sakura
+Mod4 t :Exec kitty
 Mod4 r :Exec rofi -show-icons -show drun
