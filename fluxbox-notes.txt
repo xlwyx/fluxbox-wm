@@ -14,3 +14,5 @@ doas nano /usr/share/examples/picom/picom.sample.conf
     inactive-opacity-override = true
     # inactive-opacity-override = false;
     
+# Skippy-xd utility
+ is a window management tool for X11 similar to Mac OS X's Exposé feature. It is a fullscreen task switcher that allows a user to quickly see open windows by two different sets of criteria, or to hide all windows and show the desktop without the need to click through many windows to find a specific target. Skippy-XD is a branch that provides 'live' (and updating) snapshots of the windows. 
